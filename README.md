@@ -1,12 +1,13 @@
-# Generator-jekyllrb 
+# Generator-jekyll-github
 
-[![Build Status](https://travis-ci.org/dnozay/generator-jekyllrb.svg?branch=master)](https://travis-ci.org/dnozay/generator-jekyllrb)
+**FORKED FROM:**   [Jekyllrb](https://github.com/robwierzbowski/generator-jekyllrb)—Differences include updates to focus on Jekyll 3 and [Github Pages](https://jekyllrb.com/docs/github-pages/).
 
-**Supercharge Jekyll development with Yeoman. Yo, Jekyllrb!**
 
-Generator-jekyllrb wraps the [Jekyll](http://jekyllrb.com/) static site generator in a [Yeoman](http://yeoman.io/) development workflow. Scaffold your site with Yo, manage front end packages with [Bower](http://bower.io/), and automate development and build tasks with [Grunt](http://gruntjs.com/). 
+**Supercharge Jekyll 3 & native Github-pages development with Yeoman. Yo, Jekyll-github!**
 
-Generator-jekyllrb is ideal for developing performant static sites and prototyping dynamic sites and apps (especially if the final version uses Yeoman too). It's also a great introduction to Yeoman if you're not familiar with JavaScript MV* frameworks.
+Generator-jekyll-github wraps the [Jekyll](http://jekyllrb.com/) static site generator in a [Yeoman](http://yeoman.io/) development workflow. Scaffold your site with Yo, manage front end packages with [Bower](http://bower.io/), and automate development and build tasks with [Grunt](http://gruntjs.com/).
+
+Generator-jekyll-github is ideal for developing high performance static sites and prototyping dynamic sites and apps (especially if the final version uses Yeoman too). It's also a great introduction to Yeoman if you're not familiar with JavaScript MV* frameworks.
 
 ## FAQ
 
@@ -53,7 +54,7 @@ Builds an optimized site to the dist directory. [Usemin blocks](https://github.c
 
 #### grunt deploy
 
-During scaffolding the generator gives you the option to configure [grunt-build-control](https://github.com/robwierzbowski/grunt-build-control) to version and deploy your built code to a remote repository. If you configure build-control, `grunt deploy` will run `grunt check`, `grunt test`, `grunt build`, and then commit and deploy your built code to the specified remote repository. 
+During scaffolding the generator gives you the option to configure [grunt-build-control](https://github.com/robwierzbowski/grunt-build-control) to version and deploy your built code to a remote repository. If you configure build-control, `grunt deploy` will run `grunt check`, `grunt test`, `grunt build`, and then commit and deploy your built code to the specified remote repository.
 
 #### grunt (default)
 
@@ -126,4 +127,3 @@ Post bugs and feature requests to the [Github issue tracker](https://github.com/
 
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/robwierzbowski/generator-jekyllrb/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
