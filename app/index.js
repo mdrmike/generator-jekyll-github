@@ -328,7 +328,7 @@ Generator.prototype.askForJekyll = function askForJekyll() {
   {
     name: 'jekPyg',
     type: 'confirm',
-    message: 'Use the Pygments code highlighting library?'
+    message: 'Use the Rouge syntax highlighting library?'
   },
   {
     name: 'jekPage',
