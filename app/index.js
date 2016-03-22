@@ -321,8 +321,9 @@ Generator.prototype.askForJekyll = function askForJekyll() {
   {
     name: 'jekMkd',
     type: 'list',
+    default: 'kramdown',
     message: 'Markdown library',
-    choices: ['redcarpet', 'maruku', 'rdiscount', 'kramdown']
+    choices: ['kramdown', 'redcarpet', 'maruku', 'rdiscount']
   },
   {
     name: 'jekPyg',
