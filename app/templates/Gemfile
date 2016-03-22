@@ -1,6 +1,13 @@
-source "http://rubygems.org"
+source 'https://rubygems.org'
 
-gem 'jekyll', '~> 2.3.0'
+require 'json'
+require 'open-uri'
+versions = JSON.parse(open('https://pages.github.com/versions.json').read)
+
+gem 'github-pages', versions['github-pages']
+#gem 'html-proofer'  # travis CI per: http://jekyllrb.com/docs/continuous-integration/
+#gem 'scss_lint'  # travis CI per: http://jekyllrb.com/docs/continuous-integration/
+
 <% if (jekMkd) { %> gem '<%= jekMkd %>'<% } 
-if (cssPre === 'sass') { %> gem 'sass', '~> 3.4.3'<% } 
+if (cssPre === 'sass') { %> gem 'sass', '~> 3.4.3'<% }
 if (cssPre === 'compass') { %> gem 'compass', '~> 1.0.1'<% } %>
