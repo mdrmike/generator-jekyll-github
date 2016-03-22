@@ -45,4 +45,4 @@ markdown: <%= jekMkd %><% if (jekMkd === 'maruku') { %>
 #     coderay_css: style<% } %><% if (jekMkd === 'redcarpet') {%>
 #   extensions: ['fenced_code_blocks', 'smart']<% } %>
 
-pygments: <%= jekPyg %>
+highlighter: rouge # <%= jekPyg %>
